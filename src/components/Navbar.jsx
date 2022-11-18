@@ -6,8 +6,8 @@ const Navbar = () => {
         <nav className='h-20 bg-gray-500 flex items-center justify-center'>
             <div>
                 <ul className='flex gap-3'>
-                    <li><Link to='/'>Dashboard</Link></li>
                     <li><Link to='/registration'>Registration</Link></li>
+                    <li><Link to='/'>Dashboard</Link></li>
                 </ul>
             </div>
         </nav>
