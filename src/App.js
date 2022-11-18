@@ -1,12 +1,18 @@
-import { Route, Router } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Dashboard from "./Pages/Dashboard";
+import Registration from "./Pages/Registration";
+import Navbar from './components/Navbar'
 
 
 function App() {
   return (
-    <Router>
-      <Route path='/' element={<Dashboard />} />
-    </Router>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Dashboard />} />
+        <Route path="/registration" element={<Registration />} />
+      </Routes>
+    </div>
   );
 }
 
