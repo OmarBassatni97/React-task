@@ -35,8 +35,8 @@ const Form = () => {
 
     }
     return (
-        <div className='h-screen flex items-center justify-center'>
-            <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col gap-3'>
+        <div className='h-full mt-10 flex items-center justify-center'>
+            <form onSubmit={handleSubmit(onSubmit)} className='flex shadow-lg rounded p-4 flex-col gap-3'>
                 <div>
                     <label>Name: </label>
                     <input name='firstName' {...register("firstName")} className='border border-gray' type="text" />
