@@ -7,7 +7,7 @@ const Navbar = () => {
             <div>
                 <ul className='flex gap-3'>
                     <li><Link className='text-lg font-semibold hover:text-white transition duration-300' to='/registration'>Registration</Link></li>
-                    <li><Link className='text-lg font-semibold hover:text-white transition duration-300' to='/'>Dashboard</Link></li>
+                    <li><Link className='text-lg font-semibold hover:text-white transition duration-300' to='/dashboard'>Dashboard</Link></li>
                 </ul>
             </div>
         </nav>
